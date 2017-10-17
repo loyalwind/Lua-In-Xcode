@@ -218,6 +218,10 @@
                 "debug.setmetatable",
                 "debug.setupvalue",
                 "debug.traceback",
+		"self",
+		"false",
+		"true",
+		"nil",
             );
             Type = "xcode.syntax.keyword";
             AltType = "xcode.syntax.identifier";    // non-keywords are identifiers
