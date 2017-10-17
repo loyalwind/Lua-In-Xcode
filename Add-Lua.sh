@@ -39,9 +39,9 @@ PLISTBUDDY=/usr/libexec/PlistBuddy
 #
 if [ "${BETA}" = true ]
 then
-  DVTFOUNDATION_PATH="/Applications/Xcode-beta.app/Contents/SharedFrameworks/DVTFoundation.framework/Versions/A/Resources/"
+  DVTFOUNDATION_PATH="/Applications/Xcode_8.3.app/Contents/SharedFrameworks/DVTFoundation.framework/Versions/A/Resources/"
 else
-  DVTFOUNDATION_PATH="/Applications/Xcode.app/Contents/SharedFrameworks/DVTFoundation.framework/Versions/A/Resources/"
+  DVTFOUNDATION_PATH="/Applications/Xcode 7.app/Contents/SharedFrameworks/DVTFoundation.framework/Versions/A/Resources/"
 fi
 
 # Create Plist file of additional languages to add to 'DVTFoundation.xcplugindata'
